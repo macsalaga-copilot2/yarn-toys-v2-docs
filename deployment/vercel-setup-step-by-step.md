@@ -63,13 +63,13 @@ NEXT_PUBLIC_APP_URL=https://[your-project-name].vercel.app
 NEXT_PUBLIC_API_URL=https://[your-project-name].vercel.app/api
 ```
 
-#### **Sanity CMS** (Your actual values)
+#### **Sanity CMS** (Replace with your actual values)
 ```
-NEXT_PUBLIC_SANITY_PROJECT_ID=ye3pqate
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
 NEXT_PUBLIC_SANITY_DATASET=production
 NEXT_PUBLIC_SANITY_API_VERSION=2024-05-15
-SANITY_API_READ_TOKEN=skMFgnmjsy5AWGNi5uTWPlb5SN3KnRKv1aDNHpRhUecV8eMOuOgxKFYGXWZuRBNKXpD8V1Wb4qwfYOJJsoo0KNGLrBwBy2W8GVpRj9vhVnGqmcwQ8c9DssHI26YzJomWKew8OTBpMGp5Ar2gRiT8eA0yJA5KtcrzLdQ802xRvqhXhCNdmI4c
-SANITY_API_WRITE_TOKEN=skMFgnmjsy5AWGNi5uTWPlb5SN3KnRKv1aDNHpRhUecV8eMOuOgxKFYGXWZuRBNKXpD8V1Wb4qwfYOJJsoo0KNGLrBwBy2W8GVpRj9vhVnGqmcwQ8c9DssHI26YzJomWKew8OTBpMGp5Ar2gRiT8eA0yJA5KtcrzLdQ802xRvqhXhCNdmI4c
+SANITY_API_READ_TOKEN=your_read_token_here
+SANITY_API_WRITE_TOKEN=your_write_token_here
 ```
 
 #### **Optional (Add Later)**
