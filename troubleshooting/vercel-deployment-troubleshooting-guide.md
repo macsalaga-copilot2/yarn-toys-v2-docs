@@ -223,7 +223,7 @@ Error: `projectId` can only contain only a-z, 0-9 and dashes
 
 # 2. Add environment variables to Vercel
 vercel env add NEXT_PUBLIC_SANITY_PROJECT_ID
-# Value: ye3pqate
+# Value: [REDACTED_PROJECT_ID]
 # Environment: Production
 
 vercel env add NEXT_PUBLIC_SANITY_DATASET
@@ -239,7 +239,7 @@ vercel env ls
 ```
 
 **Common User Errors:**
-- **Wrong Value Entry:** Entered project ID (`ye3pqate`) for dataset instead of `production`
+- **Wrong Value Entry:** Entered project ID (`[REDACTED_PROJECT_ID]`) for dataset instead of `production`
 - **Environment Selection:** Forgot to select Production environment
 - **Typos:** Mistyped environment variable values
 

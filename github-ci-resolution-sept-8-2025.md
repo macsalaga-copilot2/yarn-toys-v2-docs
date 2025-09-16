@@ -64,7 +64,7 @@ Added required Sanity environment variables to both jobs:
 
 ```yaml
 env:
-  NEXT_PUBLIC_SANITY_PROJECT_ID: ye3pqate
+  NEXT_PUBLIC_SANITY_PROJECT_ID: [REDACTED_PROJECT_ID]
   NEXT_PUBLIC_SANITY_DATASET: production
   NEXT_PUBLIC_SANITY_API_VERSION: 2024-05-15
 ```
@@ -86,7 +86,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      NEXT_PUBLIC_SANITY_PROJECT_ID: ye3pqate
+      NEXT_PUBLIC_SANITY_PROJECT_ID: [REDACTED_PROJECT_ID]
       NEXT_PUBLIC_SANITY_DATASET: production
       NEXT_PUBLIC_SANITY_API_VERSION: 2024-05-15
     
@@ -118,7 +118,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      NEXT_PUBLIC_SANITY_PROJECT_ID: ye3pqate
+      NEXT_PUBLIC_SANITY_PROJECT_ID: [REDACTED_PROJECT_ID]
       NEXT_PUBLIC_SANITY_DATASET: production
       NEXT_PUBLIC_SANITY_API_VERSION: 2024-05-15
     
@@ -197,7 +197,7 @@ jobs:
 
 ### Environment Variables Reference
 ```bash
-NEXT_PUBLIC_SANITY_PROJECT_ID=ye3pqate
+NEXT_PUBLIC_SANITY_PROJECT_ID=[REDACTED_PROJECT_ID]
 NEXT_PUBLIC_SANITY_DATASET=production
 NEXT_PUBLIC_SANITY_API_VERSION=2024-05-15
 ```

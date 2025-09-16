@@ -94,7 +94,7 @@ let clickTimeout: ReturnType<typeof setTimeout>; // Was: NodeJS.Timeout
 ### **health/route.ts**
 ```typescript
 // Fixed CDN health check
-const response = await fetch('https://cdn.sanity.io/images/ye3pqate/production/a93624120793560731d13d84a07b31c6bde5c1af-675x900.jpg', {
+const response = await fetch('https://cdn.sanity.io/images/[REDACTED_PROJECT_ID]/production/a93624120793560731d13d84a07b31c6bde5c1af-675x900.jpg', {
   method: 'HEAD',
   signal: AbortSignal.timeout(5000)
 });

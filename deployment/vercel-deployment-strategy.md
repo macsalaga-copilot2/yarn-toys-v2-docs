@@ -144,7 +144,7 @@ git checkout step-6-deployment-go-live
 
 #### **3. Environment Variables Checklist**
 Verify these are ready for Vercel:
-- `NEXT_PUBLIC_SANITY_PROJECT_ID=ye3pqate`
+- `NEXT_PUBLIC_SANITY_PROJECT_ID=[REDACTED_PROJECT_ID]`
 - `NEXT_PUBLIC_SANITY_DATASET=production` 
 - `NEXT_PUBLIC_SANITY_API_VERSION=2024-05-15`
 - `SANITY_API_TOKEN=[write-token]`

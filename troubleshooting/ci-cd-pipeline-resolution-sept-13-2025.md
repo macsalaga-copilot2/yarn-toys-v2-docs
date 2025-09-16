@@ -77,7 +77,7 @@ matrix:
 
 ### 3. Configured Environment Variables
 - Set proper Sanity environment variables in Vercel dashboard:
-  - `NEXT_PUBLIC_SANITY_PROJECT_ID=ye3pqate`
+  - `NEXT_PUBLIC_SANITY_PROJECT_ID=[REDACTED_PROJECT_ID]`
   - `NEXT_PUBLIC_SANITY_DATASET=production`
   - `NEXT_PUBLIC_SANITY_API_VERSION=2024-05-15`
   - `SANITY_API_READ_TOKEN=[configured]`
@@ -172,7 +172,7 @@ vercel ls
 ### 3. Environment Variables Management
 ```bash
 # Add required Sanity environment variables
-vercel env add NEXT_PUBLIC_SANITY_PROJECT_ID     # Value: ye3pqate
+vercel env add NEXT_PUBLIC_SANITY_PROJECT_ID     # Value: [REDACTED_PROJECT_ID]
 vercel env add NEXT_PUBLIC_SANITY_DATASET        # Value: production  
 vercel env add NEXT_PUBLIC_SANITY_API_VERSION    # Value: 2024-05-15
 vercel env add SANITY_API_READ_TOKEN             # Value: [secure token]

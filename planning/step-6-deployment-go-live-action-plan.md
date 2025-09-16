@@ -615,12 +615,12 @@ Backup Strategy: Production dataset version controlled
 **Solution Applied:**
 ```bash
 # Added required environment variables
-vercel env add NEXT_PUBLIC_SANITY_PROJECT_ID     # Value: ye3pqate
+vercel env add NEXT_PUBLIC_SANITY_PROJECT_ID     # Value: [REDACTED_PROJECT_ID]
 vercel env add NEXT_PUBLIC_SANITY_DATASET        # Value: production  
 vercel env add NEXT_PUBLIC_SANITY_API_VERSION    # Value: 2024-05-15
 ```
 
-**User Error Corrected:** Initially entered wrong value (`ye3pqate`) for dataset; corrected to `production`
+**User Error Corrected:** Initially entered wrong value (`[REDACTED_PROJECT_ID]`) for dataset; corrected to `production`
 
 **Lesson Learned:** Environment variables must be configured in Vercel before deployment; local `.env` files don't transfer automatically.
 

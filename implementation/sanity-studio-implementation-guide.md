@@ -226,7 +226,7 @@ plugins: [
 
 ### Required Environment Variables (`.env.local`)
 ```bash
-NEXT_PUBLIC_SANITY_PROJECT_ID="ye3pqate"
+NEXT_PUBLIC_SANITY_PROJECT_ID="[REDACTED_PROJECT_ID]"
 NEXT_PUBLIC_SANITY_DATASET="production"
 ```
 
